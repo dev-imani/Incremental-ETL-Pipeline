@@ -1,0 +1,17 @@
+2026-10-30 20:49:27,742 | INFO | ==================================================
+2026-10-30 20:49:27,743 | INFO | Starting incremental ETL pipeline
+2026-10-30 20:49:27,745 | INFO | Loaded 26 existing transactions
+2026-10-30 20:49:27,748 | INFO | --------------------------------------------------
+2026-10-30 20:49:27,750 | INFO | Pipeline completed | Batches processed: 0 | Skipped: 0 | New: 0 | Updated: 0 | Duplicate: 0 | Invalid: 0
+2026-10-30 20:49:27,751 | INFO | Incremental ETL pipeline finished
+2026-10-30 20:50:23,720 | INFO | ==================================================
+2026-10-30 20:50:23,725 | INFO | Starting incremental ETL pipeline
+2026-10-30 20:50:23,728 | INFO | Loaded 26 existing transactions
+2026-10-30 20:50:23,730 | INFO | Processing batch: BATCH-2026-10-21-01
+2026-10-30 20:50:23,732 | WARNING | Invalid record MP-50023: amount_kes must be a valid number
+2026-10-30 20:50:23,732 | WARNING | Invalid record None: Missing required field: transaction_id
+2026-10-30 20:50:23,733 | WARNING | Invalid record MP-50026: amount_kes cannot be negative
+2026-10-30 20:50:23,749 | INFO | Batch BATCH-2026-10-21-01 results | New: 0 | Updated: 0 | Duplicate: 14 | Invalid: 3
+2026-10-30 20:50:23,750 | INFO | --------------------------------------------------
+2026-10-30 20:50:23,751 | INFO | Pipeline completed | Batches processed: 1 | Skipped: 0 | New: 0 | Updated: 0 | Duplicate: 14 | Invalid: 3
+2026-10-30 20:50:23,751 | INFO | Incremental ETL pipeline finished
